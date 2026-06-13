@@ -1,0 +1,131 @@
+============================================================
+STRATEGY PERFORMANCE ANALYTICS SUMMARY
+============================================================
+
+1. OVERALL STATISTICS
+------------------------------------------------------------
+Total Trades:           76
+Win Rate:               53.95%
+Profit Factor:          1.89
+Expectancy (INR):       Rs.214.73
+Expectancy (R):         0.6343 R
+Average R per Trade:    0.6343 R
+Maximum Drawdown:       4.38%
+Sharpe-like Ratio (R):  0.295
+
+2. STATISTICS BY REGIME
+------------------------------------------------------------
+TRENDING:
+  Total Trades:         57
+  Win Rate:             57.89%
+  Profit Factor:        1.82
+  Average R:            0.5576 R
+  Sharpe-like Ratio:    0.307
+RANGING:
+  Total Trades:         0
+  Win Rate:             0.00%
+  Profit Factor:        0.00
+  Average R:            0.0000 R
+  Sharpe-like Ratio:    0.000
+VOLATILE:
+  Total Trades:         19
+  Win Rate:             42.11%
+  Profit Factor:        2.14
+  Average R:            0.8642 R
+  Sharpe-like Ratio:    0.289
+
+3. STATISTICS BY SIGNAL TYPE
+------------------------------------------------------------
+Breakout (Mode A):
+  Total Trades:         14
+  Win Rate:             57.14%
+  Profit Factor:        2.01
+  Average R:            0.6187 R
+  Sharpe-like Ratio:    0.347
+Pullback (Mode B):
+  Total Trades:         62
+  Win Rate:             53.23%
+  Profit Factor:        1.86
+  Average R:            0.6378 R
+  Sharpe-like Ratio:    0.285
+Mean Reversion (Mode R):
+  Total Trades:         0
+  Win Rate:             0.00%
+  Profit Factor:        0.00
+  Average R:            0.0000 R
+  Sharpe-like Ratio:    0.000
+
+4. STATISTICS BY SCORE BUCKET
+------------------------------------------------------------
+Bucket 0.70 - 0.79:
+  Total Trades:         0
+  Win Rate:             0.00%
+  Profit Factor:        0.00
+  Average R:            0.0000 R
+Bucket 0.80 - 0.89:
+  Total Trades:         0
+  Win Rate:             0.00%
+  Profit Factor:        0.00
+  Average R:            0.0000 R
+Bucket 0.90 - 1.00:
+  Total Trades:         76
+  Win Rate:             53.95%
+  Profit Factor:        1.89
+  Average R:            0.6343 R
+
+5. STATISTICS BY TIME HELD
+------------------------------------------------------------
+< 6 hours:
+  Total Trades:         16
+  Win Rate:             25.00%
+  Profit Factor:        0.05
+  Average R:            -0.6985 R
+6 - 24 hours:
+  Total Trades:         32
+  Win Rate:             50.00%
+  Profit Factor:        0.66
+  Average R:            -0.0631 R
+> 24 hours:
+  Total Trades:         28
+  Win Rate:             75.00%
+  Profit Factor:        7.00
+  Average R:            2.1928 R
+
+6. LOSING TRADE ANALYSIS
+------------------------------------------------------------
+List of all losing trades (PnL < 0):
+- [ETH/USDT] LONG entry at 2023-03-14T13:00:00 | Exit at 2023-03-14T21:00:00 (Held 8.00h) | Regime: VOLATILE | Type: Breakout | Score: 0.9 | PnL: Rs.-347.74 (-1.011 R) | Conditions: RVOL=5.98, ATR=21.88, VolSlope=67903.8606, BreakLevel=1695.76
+- [BTC/USDT] LONG entry at 2023-04-15T06:00:00 | Exit at 2023-04-15T08:00:00 (Held 2.00h) | Regime: TRENDING | Type: Pullback | Score: 1.0 | PnL: Rs.-104.61 (0.0278 R) | Conditions: RVOL=0.21, ATR=158.2, RSI=49.37, EMA50=30355.63, Dist%=None, Pattern=STRONG_CLOSE
+- [BTC/USDT] LONG entry at 2023-05-29T12:00:00 | Exit at 2023-05-29T16:00:00 (Held 4.00h) | Regime: TRENDING | Type: Pullback | Score: 1.0 | PnL: Rs.-737.74 (-1.2149 R) | Conditions: RVOL=0.42, ATR=156.94, RSI=62.04, EMA50=27436.97, Dist%=None, Pattern=STRONG_CLOSE
+- [BTC/USDT] LONG entry at 2023-05-29T21:00:00 | Exit at 2023-05-31T05:00:00 (Held 32.00h) | Regime: TRENDING | Type: Pullback | Score: 1.0 | PnL: Rs.-875.08 (-1.5 R) | Conditions: RVOL=0.31, ATR=151.76, RSI=48.38, EMA50=27516.36, Dist%=None, Pattern=STRONG_CLOSE
+- [BTC/USDT] LONG entry at 2023-09-20T00:00:00 | Exit at 2023-09-20T20:00:00 (Held 20.00h) | Regime: TRENDING | Type: Pullback | Score: 1.0 | PnL: Rs.-650.95 (-1.0621 R) | Conditions: RVOL=0.27, ATR=175.38, RSI=56.16, EMA50=26947.13, Dist%=None, Pattern=HAMMER
+- [BTC/USDT] LONG entry at 2023-10-02T12:00:00 | Exit at 2023-10-02T19:00:00 (Held 7.00h) | Regime: VOLATILE | Type: Pullback | Score: 1.0 | PnL: Rs.-546.44 (-1.5 R) | Conditions: RVOL=1.22, ATR=171.14, RSI=70.82, EMA50=27488.77, Dist%=None, Pattern=ENGULFING
+- [BTC/USDT] LONG entry at 2023-10-30T21:00:00 | Exit at 2023-10-31T08:00:00 (Held 11.00h) | Regime: TRENDING | Type: Pullback | Score: 1.0 | PnL: Rs.-573.02 (-0.8663 R) | Conditions: RVOL=0.4, ATR=211.1, RSI=49.58, EMA50=34365.36, Dist%=None, Pattern=HAMMER
+- [BTC/USDT] LONG entry at 2023-11-03T04:00:00 | Exit at 2023-11-03T10:00:00 (Held 6.00h) | Regime: TRENDING | Type: Pullback | Score: 1.0 | PnL: Rs.-648.45 (-1.0574 R) | Conditions: RVOL=0.24, ATR=264.49, RSI=43.42, EMA50=34852.73, Dist%=None, Pattern=ENGULFING
+- [BTC/USDT] LONG entry at 2023-12-21T00:00:00 | Exit at 2023-12-22T16:00:00 (Held 40.00h) | Regime: TRENDING | Type: Pullback | Score: 1.0 | PnL: Rs.-82.34 (-0.0157 R) | Conditions: RVOL=0.28, ATR=383.17, RSI=58.89, EMA50=42955.45, Dist%=None, Pattern=ENGULFING
+- [BTC/USDT] LONG entry at 2024-01-10T10:00:00 | Exit at 2024-01-10T13:00:00 (Held 3.00h) | Regime: VOLATILE | Type: Pullback | Score: 1.0 | PnL: Rs.-453.37 (-1.3363 R) | Conditions: RVOL=0.71, ATR=492.75, RSI=43.85, EMA50=45860.77, Dist%=None, Pattern=STRONG_CLOSE
+- [BTC/USDT] LONG entry at 2024-01-10T19:00:00 | Exit at 2024-01-11T04:00:00 (Held 9.00h) | Regime: VOLATILE | Type: Breakout | Score: 0.9 | PnL: Rs.-38.99 (-0.0418 R) | Conditions: RVOL=2.13, ATR=666.61, VolSlope=2310.5525, BreakLevel=46228.4
+- [BTC/USDT] LONG entry at 2024-01-31T16:00:00 | Exit at 2024-01-31T21:00:00 (Held 5.00h) | Regime: TRENDING | Type: Breakout | Score: 0.9 | PnL: Rs.-836.49 (-1.5 R) | Conditions: RVOL=3.71, ATR=321.14, VolSlope=2443.5146, BreakLevel=43077.0
+- [BTC/USDT] LONG entry at 2024-02-01T00:00:00 | Exit at 2024-02-01T02:00:00 (Held 2.00h) | Regime: TRENDING | Type: Pullback | Score: 1.0 | PnL: Rs.-621.21 (-1.1109 R) | Conditions: RVOL=0.47, ATR=354.44, RSI=41.54, EMA50=42934.51, Dist%=None, Pattern=ENGULFING
+- [BTC/USDT] LONG entry at 2024-02-10T05:00:00 | Exit at 2024-02-10T11:00:00 (Held 6.00h) | Regime: VOLATILE | Type: Pullback | Score: 1.0 | PnL: Rs.-360.68 (-1.0133 R) | Conditions: RVOL=0.17, ATR=340.87, RSI=65.08, EMA50=46175.93, Dist%=None, Pattern=HAMMER
+- [BTC/USDT] LONG entry at 2024-04-21T12:00:00 | Exit at 2024-04-21T17:00:00 (Held 5.00h) | Regime: TRENDING | Type: Pullback | Score: 1.0 | PnL: Rs.-659.59 (-1.0574 R) | Conditions: RVOL=1.59, ATR=407.34, RSI=61.19, EMA50=64371.59, Dist%=None, Pattern=HAMMER
+- [BTC/USDT] LONG entry at 2024-05-06T20:00:00 | Exit at 2024-05-08T00:00:00 (Held 28.00h) | Regime: TRENDING | Type: Pullback | Score: 1.0 | PnL: Rs.-594.1 (-1.0123 R) | Conditions: RVOL=1.18, ATR=595.32, RSI=42.27, EMA50=63556.39, Dist%=None, Pattern=HAMMER
+- [ETH/USDT] LONG entry at 2024-05-27T16:00:00 | Exit at 2024-05-27T20:00:00 (Held 4.00h) | Regime: TRENDING | Type: Breakout | Score: 0.9 | PnL: Rs.-855.09 (-1.5 R) | Conditions: RVOL=2.3, ATR=33.3, VolSlope=13273.2282, BreakLevel=3959.62
+- [BTC/USDT] LONG entry at 2024-07-16T20:00:00 | Exit at 2024-07-18T00:00:00 (Held 28.00h) | Regime: TRENDING | Type: Pullback | Score: 1.0 | PnL: Rs.-600.83 (-1.0577 R) | Conditions: RVOL=0.78, ATR=674.12, RSI=66.44, EMA50=62983.06, Dist%=None, Pattern=HAMMER
+- [BTC/USDT] LONG entry at 2024-07-29T21:00:00 | Exit at 2024-07-30T02:00:00 (Held 5.00h) | Regime: VOLATILE | Type: Pullback | Score: 1.0 | PnL: Rs.-500.16 (-1.419 R) | Conditions: RVOL=0.27, ATR=550.59, RSI=36.85, EMA50=68213.06, Dist%=None, Pattern=ENGULFING
+- [BTC/USDT] LONG entry at 2024-12-18T08:00:00 | Exit at 2024-12-18T20:00:00 (Held 12.00h) | Regime: TRENDING | Type: Pullback | Score: 1.0 | PnL: Rs.-701.71 (-1.0629 R) | Conditions: RVOL=0.86, ATR=889.35, RSI=37.7, EMA50=105410.82, Dist%=None, Pattern=HAMMER
+- [BTC/USDT] LONG entry at 2025-03-03T04:00:00 | Exit at 2025-03-03T15:00:00 (Held 11.00h) | Regime: VOLATILE | Type: Pullback | Score: 1.0 | PnL: Rs.-582.67 (-1.5 R) | Conditions: RVOL=0.4, ATR=1142.12, RSI=65.02, EMA50=88395.91, Dist%=None, Pattern=HAMMER
+- [BTC/USDT] LONG entry at 2025-04-24T00:00:00 | Exit at 2025-04-24T06:00:00 (Held 6.00h) | Regime: TRENDING | Type: Pullback | Score: 1.0 | PnL: Rs.-676.67 (-1.0137 R) | Conditions: RVOL=0.23, ATR=715.14, RSI=59.76, EMA50=91671.27, Dist%=None, Pattern=ENGULFING
+- [BTC/USDT] LONG entry at 2025-05-22T12:00:00 | Exit at 2025-05-23T12:00:00 (Held 24.00h) | Regime: VOLATILE | Type: Pullback | Score: 1.0 | PnL: Rs.-537.34 (-1.3566 R) | Conditions: RVOL=0.45, ATR=939.08, RSI=62.62, EMA50=108233.51, Dist%=None, Pattern=ENGULFING
+- [BTC/USDT] LONG entry at 2025-05-24T04:00:00 | Exit at 2025-05-25T09:00:00 (Held 29.00h) | Regime: TRENDING | Type: Pullback | Score: 1.0 | PnL: Rs.-683.36 (-1.0392 R) | Conditions: RVOL=0.48, ATR=796.42, RSI=43.4, EMA50=109151.29, Dist%=None, Pattern=ENGULFING
+- [BTC/USDT] LONG entry at 2025-06-10T23:00:00 | Exit at 2025-06-11T04:00:00 (Held 5.00h) | Regime: TRENDING | Type: Pullback | Score: 1.0 | PnL: Rs.-130.77 (-0.0255 R) | Conditions: RVOL=0.65, ATR=635.23, RSI=59.26, EMA50=108318.96, Dist%=None, Pattern=ENGULFING
+- [BTC/USDT] LONG entry at 2025-06-26T00:00:00 | Exit at 2025-06-27T12:00:00 (Held 36.00h) | Regime: TRENDING | Type: Pullback | Score: 1.0 | PnL: Rs.-374.39 (-0.4244 R) | Conditions: RVOL=0.44, ATR=528.24, RSI=58.62, EMA50=105980.3, Dist%=None, Pattern=HAMMER
+- [BTC/USDT] LONG entry at 2025-08-11T10:00:00 | Exit at 2025-08-11T13:00:00 (Held 3.00h) | Regime: TRENDING | Type: Pullback | Score: 1.0 | PnL: Rs.-1027.94 (-1.5 R) | Conditions: RVOL=0.68, ATR=627.12, RSI=66.95, EMA50=118905.86, Dist%=None, Pattern=HAMMER
+- [BTC/USDT] LONG entry at 2025-08-11T17:00:00 | Exit at 2025-08-11T21:00:00 (Held 4.00h) | Regime: TRENDING | Type: Pullback | Score: 1.0 | PnL: Rs.-731.84 (-1.0544 R) | Conditions: RVOL=1.04, ATR=717.46, RSI=48.79, EMA50=119227.06, Dist%=None, Pattern=ENGULFING
+- [BTC/USDT] LONG entry at 2025-08-28T08:00:00 | Exit at 2025-08-28T16:00:00 (Held 8.00h) | Regime: TRENDING | Type: Pullback | Score: 1.0 | PnL: Rs.-401.17 (-0.4671 R) | Conditions: RVOL=0.78, ATR=636.75, RSI=66.08, EMA50=111671.62, Dist%=None, Pattern=ENGULFING
+- [BTC/USDT] LONG entry at 2025-10-07T22:00:00 | Exit at 2025-10-09T17:00:00 (Held 43.00h) | Regime: TRENDING | Type: Pullback | Score: 1.0 | PnL: Rs.-1051.76 (-1.5 R) | Conditions: RVOL=0.36, ATR=808.72, RSI=38.71, EMA50=123345.21, Dist%=None, Pattern=ENGULFING
+- [BTC/USDT] SHORT entry at 2026-01-21T23:00:00 | Exit at 2026-01-22T12:00:00 (Held 13.00h) | Regime: VOLATILE | Type: Pullback | Score: 1.0 | PnL: Rs.-102.01 (-0.1383 R) | Conditions: RVOL=0.37, ATR=873.26, RSI=51.33, EMA50=90242.66, Dist%=None, Pattern=STRONG_BEARISH_CLOSE
+- [BTC/USDT] SHORT entry at 2026-01-22T17:00:00 | Exit at 2026-01-23T02:00:00 (Held 9.00h) | Regime: VOLATILE | Type: Breakout | Score: 0.9 | PnL: Rs.-465.23 (-1.0117 R) | Conditions: RVOL=1.78, ATR=584.37, VolSlope=1444.3708, BreakLevel=89317.9
+- [ETH/USDT] SHORT entry at 2026-05-13T16:00:00 | Exit at 2026-05-13T20:00:00 (Held 4.00h) | Regime: TRENDING | Type: Breakout | Score: 0.9 | PnL: Rs.-582.24 (-0.7849 R) | Conditions: RVOL=2.55, ATR=17.17, VolSlope=43758.4033, BreakLevel=2255.15
+- [BTC/USDT] SHORT entry at 2026-05-29T22:00:00 | Exit at 2026-05-30T04:00:00 (Held 6.00h) | Regime: VOLATILE | Type: Pullback | Score: 1.0 | PnL: Rs.-127.9 (-0.1496 R) | Conditions: RVOL=0.44, ATR=477.26, RSI=46.59, EMA50=73872.38, Dist%=None, Pattern=STRONG_BEARISH_CLOSE
+- [BTC/USDT] SHORT entry at 2026-06-11T12:00:00 | Exit at 2026-06-12T08:00:00 (Held 20.00h) | Regime: TRENDING | Type: Pullback | Score: 1.0 | PnL: Rs.-95.62 (0.0172 R) | Conditions: RVOL=1.02, ATR=444.67, RSI=65.33, EMA50=62230.44, Dist%=None, Pattern=SHOOTING_STAR

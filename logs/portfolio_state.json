@@ -1,0 +1,143 @@
+{
+    "current_balance": 50000.0,
+    "peak_balance": 50000.0,
+    "daily_pnl": 0.0,
+    "weekly_pnl": 0.0,
+    "trades_today": 0,
+    "weekly_signals_gen": 0,
+    "weekly_signals_rej": 28,
+    "weekly_trades_exec": 0,
+    "weekly_rejections": {
+        "regime": 0,
+        "mtf": 0,
+        "score": 0,
+        "volume": 0
+    },
+    "weekly_daily_pnl": [
+        0.0,
+        0.0
+    ],
+    "_running_day_pnl": 0.0,
+    "daily_start_balance": 50000.0,
+    "weekly_start_balance": 50000.0,
+    "monthly_start_balance": 50000.0,
+    "_last_date": "2026-07-15",
+    "_last_week": 29,
+    "_last_month": 7,
+    "open_trades": {},
+    "latest_regime": {
+        "BTC/USDT": "RANGING",
+        "LINK/USDT": "TRENDING"
+    },
+    "latest_adx": {
+        "BTC/USDT": 25.13,
+        "LINK/USDT": 21.13
+    },
+    "regime_history": {
+        "BTC/USDT": [
+            [
+                1783847365947,
+                "RANGING"
+            ],
+            [
+                1783915200000,
+                "RANGING"
+            ],
+            [
+                1783929600000,
+                "RANGING"
+            ],
+            [
+                1783944000000,
+                "RANGING"
+            ],
+            [
+                1783958400000,
+                "RANGING"
+            ],
+            [
+                1783972800000,
+                "RANGING"
+            ],
+            [
+                1783987200000,
+                "RANGING"
+            ],
+            [
+                1784001600000,
+                "RANGING"
+            ],
+            [
+                1784016000000,
+                "RANGING"
+            ],
+            [
+                1784030400000,
+                "RANGING"
+            ],
+            [
+                1784044800000,
+                "RANGING"
+            ],
+            [
+                1784059200000,
+                "RANGING"
+            ]
+        ],
+        "LINK/USDT": [
+            [
+                1783847365947,
+                "RANGING"
+            ],
+            [
+                1783915200000,
+                "RANGING"
+            ],
+            [
+                1783929600000,
+                "RANGING"
+            ],
+            [
+                1783944000000,
+                "RANGING"
+            ],
+            [
+                1783958400000,
+                "RANGING"
+            ],
+            [
+                1783972800000,
+                "RANGING"
+            ],
+            [
+                1783987200000,
+                "RANGING"
+            ],
+            [
+                1784001600000,
+                "RANGING"
+            ],
+            [
+                1784016000000,
+                "RANGING"
+            ],
+            [
+                1784030400000,
+                "RANGING"
+            ],
+            [
+                1784044800000,
+                "RANGING"
+            ],
+            [
+                1784059200000,
+                "TRENDING"
+            ]
+        ]
+    },
+    "circuit_breaker": {
+        "daily_paused": false,
+        "weekly_halved": false,
+        "monthly_paused": false
+    }
+}

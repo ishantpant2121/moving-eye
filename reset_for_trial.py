@@ -46,8 +46,6 @@ WEEKLY_HEADER = [
     "largest_winner_r", "largest_loser_r", "max_drawdown_pct",
 ]
 
-os.makedirs("logs", exist_ok=True)
-
 files_to_reset = {
     "logs/paper_trades.csv":   TRADE_CSV_HEADER,
     "logs/signal_audit.csv":   SIGNAL_AUDIT_HEADER,
@@ -55,22 +53,29 @@ files_to_reset = {
     "logs/weekly_summary.csv": WEEKLY_HEADER,
 }
 
-for path, header in files_to_reset.items():
-    with open(path, "w", newline="", encoding="utf-8") as fh:
-        csv.writer(fh).writerow(header)
-    print(f"Reset: {path} (header only)")
+def reset_logs():
+    os.makedirs("logs", exist_ok=True)
 
-# Reset paper_log.txt
-with open("logs/paper_log.txt", "w", encoding="utf-8") as fh:
-    fh.write("")
-print("Reset: logs/paper_log.txt (empty)")
+    for path, header in files_to_reset.items():
+        with open(path, "w", newline="", encoding="utf-8") as fh:
+            csv.writer(fh).writerow(header)
+        print(f"Reset: {path} (header only)")
 
-# Remove stale portfolio state so paper_trader starts fresh
-state_path = "logs/portfolio_state.json"
-if os.path.exists(state_path):
-    os.remove(state_path)
-    print(f"Removed: {state_path}")
+    # Reset paper_log.txt
+    with open("logs/paper_log.txt", "w", encoding="utf-8") as fh:
+        fh.write("")
+    print("Reset: logs/paper_log.txt (empty)")
 
-print()
-print("Clean baseline established.")
-print("You may now run: python paper_trader.py")
+    # Remove stale portfolio state so paper_trader starts fresh
+    state_path = "logs/portfolio_state.json"
+    if os.path.exists(state_path):
+        os.remove(state_path)
+        print(f"Removed: {state_path}")
+
+    print()
+    print("Clean baseline established.")
+    print("You may now run: python paper_trader.py")
+
+
+if __name__ == "__main__":
+    reset_logs()
